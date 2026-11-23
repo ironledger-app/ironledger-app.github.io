@@ -1,0 +1,26 @@
+:root{--iron:#141517;--panel:#232528;--edge:#3A3D42;--forge:#FF6A1A;--hot:#FFB341;--text:#E8E6E3;--muted:#A3A6AB}
+*{box-sizing:border-box}
+body{margin:0;background:var(--iron);color:var(--text);font:16px/1.6 "Barlow",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+header{border-bottom:1px solid var(--edge)}
+.bar{max-width:760px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.logo{font:700 22px/1 "Big Shoulders Display",sans-serif;letter-spacing:.04em;text-transform:uppercase;color:var(--text);text-decoration:none}
+.logo span{color:var(--forge)}
+nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:16px}
+nav a:hover,nav a[aria-current]{color:var(--forge)}
+main{max-width:760px;margin:0 auto;padding:36px 20px 72px}
+h1{font:800 38px/1.1 "Big Shoulders Display",sans-serif;letter-spacing:.02em;text-transform:uppercase;margin:0 0 6px}
+h1 span{color:var(--forge)}
+h2{font:700 20px/1.2 "Big Shoulders Display",sans-serif;text-transform:uppercase;letter-spacing:.05em;color:var(--hot);margin:32px 0 8px;border-top:1px solid var(--edge);padding-top:20px}
+.meta{color:var(--muted);font-size:14px;margin-bottom:24px}
+a{color:var(--forge)}
+ul,ol{padding-left:22px} li{margin:4px 0}
+.box{background:var(--panel);border:1px solid var(--edge);border-left:3px solid var(--forge);border-radius:6px;padding:14px 16px;margin:16px 0}
+.lead{font-size:19px;color:var(--text);max-width:600px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:24px 0}
+.card{background:var(--panel);border:1px solid var(--edge);border-radius:8px;padding:16px}
+.card b{display:block;font:700 17px/1.2 "Big Shoulders Display",sans-serif;text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.badge{display:inline-block;background:var(--forge);color:#141517;font-weight:700;border-radius:6px;padding:8px 14px;margin-top:8px}
+footer{border-top:1px solid var(--edge);color:var(--muted);font-size:13px}
+footer .bar{padding:20px}
+footer a{color:var(--muted)}
